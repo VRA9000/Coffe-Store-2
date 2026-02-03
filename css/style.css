@@ -271,10 +271,15 @@ input[type=button]:hover {
 }
 .contact-us {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.contact-us h3 {
+  color: goldenrod;
+  font-weight: 700;
 }
 .contact-us p {
-  width: 50%;
+  width: 100%;
 }
 .contact-us ul li {
   list-style-type: none;
