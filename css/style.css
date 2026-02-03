@@ -1,0 +1,225 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Courier New', Courier, monospace
+}
+
+.header-section{
+  background-image: url(/images/bg-image.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+nav img {
+  width: 50px;
+  color: white;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem;
+}
+nav ul li{
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 2rem;
+}
+nav ul li a{
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  transition: .5s all;
+
+}
+nav ul li .black{
+  color: black;
+}
+nav ul li a:hover {
+  color: goldenrod;
+}
+
+.header-down-content{
+  margin : 15%
+}
+
+.header-down-content .first-h1 {
+  font-size: 4rem;
+  color: goldenrod;
+}
+.second-h1 {
+  color: white;
+  font-size: 3rem;
+  margin-top: 1rem;
+}
+.header-down-content p {
+  color: white;
+  margin-top: 3rem;
+ 
+}
+
+.section-first{
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+  align-items: center;
+  margin: 3rem auto;
+}
+.day-deals{
+  width: 50%;
+}
+.day-deals .first-h2 {
+  font-size: 2rem;
+  color: goldenrod;
+  margin-bottom: 1rem;
+
+}
+.day-deals p {
+  width: 70%;
+  text-align: justify;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+.day-deals a{
+  text-decoration: none;
+  border: 1px solid goldenrod;
+  padding: 1rem 2rem;
+  margin-top: 3rem;
+  color: black;
+  transition: .5s all;
+}
+.day-deals a:hover{
+  border: 1px solid black;
+}
+.cart-menu {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  max-width: 600px;
+}
+.menu-section{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  border-bottom: 1px solid lightgrey;
+}
+.product-name h4{
+  font-size: 1.4rem;
+  
+}
+.product-name p {
+  border-bottom: 2rem;
+  color: gray;
+}
+.section-two{
+  background-image: url(/images/home-image1.jpg);
+  height: 70vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 3rem;
+}
+.section-three {
+  margin-top: 3rem;
+  
+  display: flex;
+  max-width: 1200px;
+  margin: auto;
+  justify-content: space-between;
+}
+.section-three .two-cols .first-h2{
+  font-size: 2rem;
+  color:goldenrod ;
+  font-weight: 400;
+}
+.section-three .second-col{
+  width: 600px;
+}
+
+.section-three .second-col p {
+  color: gray;
+}
+
+.section-four {
+  margin-top: 5rem;
+  background-image: url(/images/home-image2.jpg);
+  height: 90vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat:no-repeat;
+}
+.section-five{
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+.second-p {
+  margin-bottom: 3rem;
+}
+.second-col a {
+  margin-top: 3rem;
+  text-decoration: none;
+  color: black;
+  border: 1px solid goldenrod;
+  padding: 1rem 2rem;
+  transition: .5s all;
+  
+}
+.second-col a:hover {
+  border: 1px solid black;
+}
+
+.wrapper {
+  margin: auto;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.image-section{
+  background-image: url(/images/about-image1.jpg);
+  height: 40vh;
+}
+
+.image-section{
+  margin-top: 5rem;
+  display: flex;
+}
+
+.text-image-section{
+  display: flex;
+  margin-top: 4rem;
+  justify-content: space-between;
+}
+.text-image-section img{
+  max-width: 500px;
+  margin-top: 2.5rem;
+}
+.text-image-section .text-content{
+  width:50%;
+  margin-left: 3rem;
+}
+
+.wrapper-menus {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  max-width: 1400px;
+  align-items: center;
+  width: 100%;
+  justify-content: space-evenly;
+
+}
+.gold-text {
+  color: goldenrod;
+  font-weight: 600;
+  
+}
+.cake-menu{
+  width: 45%;
+ 
+}
+.coffee-menu{
+  width: 45%;
+}
