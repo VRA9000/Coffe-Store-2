@@ -223,3 +223,68 @@ nav ul li a:hover {
 .coffee-menu{
   width: 45%;
 }
+
+
+.booking-section {
+  max-width: 1200px;
+  margin: auto;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.booking{
+  width: 45%;
+}
+form {
+  display: grid;
+  margin-top: 5rem;
+  
+}
+form input {
+   width: 400px;
+   text-align: center;
+}
+
+form input:hover {
+  background-color: rgba(218, 165, 32, 0.24);
+}
+
+textarea{
+  margin-top: 2rem;
+}
+
+input[type=button] {
+  width: 300px;
+  margin: 2rem auto;
+  background-color: goldenrod;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  transition: .5s all;
+   font-weight: 600;
+ 
+}
+input[type=button]:hover {
+  background-color: black;
+  color: white;
+}
+.contact-us {
+  display: flex;
+  justify-content: space-between;
+}
+.contact-us p {
+  width: 50%;
+}
+.contact-us ul li {
+  list-style-type: none;
+}
+
+
+
+iframe {
+  width: 100%;
+  margin: auto;
+  align-items: center;
+  height: 400px;
+}
