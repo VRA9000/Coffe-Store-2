@@ -332,6 +332,13 @@ iframe {
   width: 100%;
 
  }
+ .booking-section{
+  flex-direction: column-reverse;
+
+ }
+ .booking{
+  width: 80%;
+ }
 
 }
 
