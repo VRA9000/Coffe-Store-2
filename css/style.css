@@ -14,6 +14,16 @@
   display: flex;
   flex-direction: column;
 }
+.menu-icon{
+    width: 48px;
+    display:none;
+  }
+ .black-menu-icon{
+    width: 38px;
+  }
+  .black-menu-icon{
+    display: none;
+  }
 nav img {
   width: 50px;
   color: white;
@@ -67,6 +77,7 @@ nav ul li a:hover {
   width: 100%;
   align-items: center;
   margin: 3rem auto;
+  flex-direction: row;
 }
 .day-deals{
   width: 50%;
@@ -124,7 +135,6 @@ nav ul li a:hover {
 }
 .section-three {
   margin-top: 3rem;
-  
   display: flex;
   max-width: 1200px;
   margin: auto;
@@ -292,4 +302,68 @@ iframe {
   margin: auto;
   align-items: center;
   height: 400px;
+}
+
+@media (max-width:900px){
+  .section-three{
+    flex-direction: column;
+    align-items: center;
+  }
+  .text-image-section{
+    flex-direction: column;
+    width: 300px;
+  }
+  .text-image-section img {
+    width: 100%;
+    align-items: center;
+  }
+  .text-content p{
+    width: 300px;
+  }
+  .wrapper-menus{
+    flex-direction: column;
+    width: 100%;
+  }
+ /*  .cake-menu{
+    width: 100%;
+    text-align: center;
+  } */
+ .cart-menu{
+  width: 100%;
+
+ }
+
+}
+
+@media (max-width: 500px){
+ 
+  ul{
+    display: none;
+  }
+  .header-down-content{
+    margin-top: 60%;
+  }
+  .section-first{
+    flex-direction: column;
+  }
+  .day-deals{
+    width: 90%;
+  }
+  .cart-menu {
+    width: 90%;
+  }
+  .menu-icon{
+    width: 48px;
+    display: block;  
+}
+.black-menu-icon{
+    display: block;
+  }
+  .section-three{
+    flex-direction: column;
+  }
+  .text-content {
+    width: 300px;
+  }
+
 }
