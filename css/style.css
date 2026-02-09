@@ -308,6 +308,15 @@ iframe {
 
 @media (max-width:900px){
 
+  nav ul li a{
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  transition: .5s all;
+  font-size: 1em;
+
+}
+
 .header-down-content{
     margin: 7%;
 }
