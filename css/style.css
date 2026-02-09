@@ -210,7 +210,7 @@ nav ul li a:hover {
   margin-top: 2.5rem;
 }
 .text-image-section .text-content{
-  width:50%;
+  width:100%;
   margin-left: 3rem;
 }
 
@@ -222,6 +222,7 @@ nav ul li a:hover {
   align-items: center;
   width: 100%;
   justify-content: space-evenly;
+  margin-right: 140px;
 
 }
 .gold-text {
@@ -346,6 +347,7 @@ iframe {
   margin-left: 50px;
 }
   .section-three{
+    display: flex;
     flex-direction: column;
     align-items: center;
    
@@ -366,8 +368,12 @@ iframe {
     width: 100%;
     align-items: center;
   }
+
   .text-content p{
     max-width: 600px;
+    align-items: center;
+    text-align: center;
+   
   }
   .wrapper-menus{
     flex-direction: column;
@@ -396,10 +402,10 @@ iframe {
   align-items: center;
 
  }
- .text-content p {
+ /* .text-content p {
   width: 400px;
   margin-left: -100px;
- }
+ } */
 
 }
 
@@ -440,7 +446,7 @@ iframe {
     flex-direction: column;
   }
   .text-content {
-    width: 300px;
+    width: 80%;
   }
 
 }
