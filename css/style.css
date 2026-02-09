@@ -17,6 +17,7 @@
 .menu-icon{
     width: 48px;
     display:none;
+    cursor: pointer;
   }
  .black-menu-icon{
     width: 38px;
