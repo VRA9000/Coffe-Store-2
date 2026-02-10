@@ -113,6 +113,7 @@ nav ul li a:hover {
   flex-direction: column;
   width: 80%;
   max-width: 600px;
+
 }
 .menu-section{
   margin-top: 2rem;
@@ -232,10 +233,13 @@ nav ul li a:hover {
 }
 .cake-menu{
   width: 45%;
+  margin-left: -200px;
  
 }
 .coffee-menu{
   width: 45%;
+  margin-left: -200px;
+  margin-top: 4%;
 }
 
 
@@ -384,7 +388,7 @@ iframe {
     text-align: center;
   } */
  .cart-menu{
-  width: 700px;
+  width: 400px;
   align-items: center;
   margin-left: 20px;
 
