@@ -427,9 +427,12 @@ iframe {
   .day-deals{
     width: 90%;
   }
+  .cake-menu{
+    text-align: center;
+  }
   .cart-menu {
-    width: 600px;
-    margin-left: -100px;
+    width: 300px;
+    margin-left: 0px;
     
   }
   .cart-menu h3{
