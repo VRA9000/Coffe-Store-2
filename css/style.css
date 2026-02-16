@@ -119,8 +119,10 @@ nav ul li a:hover {
   margin-top: 2rem;
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  width: 80%;
   border-bottom: 1px solid lightgrey;
+  text-align: center;
+ 
 }
 .product-name h4{
   font-size: 1.4rem;
@@ -223,7 +225,8 @@ nav ul li a:hover {
   align-items: center;
   width: 100%;
   justify-content: space-evenly;
-  margin-right: 140px;
+  align-content: center;
+ 
 
 }
 .gold-text {
@@ -238,9 +241,17 @@ nav ul li a:hover {
 }
 .coffee-menu{
   width: 45%;
-  margin-left: -200px;
+  margin-left: -100px;
   margin-top: 4%;
 }
+.coffee-menu .gold-text {
+  margin-bottom: 1rem;
+}
+.coffee-menu .black-text-h3 {
+  margin-bottom: 1rem;
+  width: 300px;
+}
+
 
 
 .booking-section {
@@ -429,6 +440,7 @@ iframe {
   }
   .cake-menu{
     text-align: center;
+    margin-left: -40px;
   }
   .cart-menu {
     width: 300px;
@@ -442,18 +454,38 @@ iframe {
   .gold-text{
     width: 300px;
   }
-  .menu-icon{
-    width: 48px;
-    display: block;  
-}
-.black-menu-icon{
-    display: block;
+  .cake-menu .black-text-h3{
+    text-align: center;
+    margin: auto;
+    width: 300px;
   }
-  .section-three{
-    flex-direction: column;
+  .menu-section{
+      margin-top: 2rem;
+      display: flex;
+      justify-content: space-between;
+      width: 80%;
+      border-bottom: 1px solid lightgrey;
+      text-align: center;
+      margin-left: -40px;
+      
+}
+   .menu-icon{
+        width: 48px;
+        display: block;  
+}
+   .black-menu-icon{
+         display: block;
+  }
+   .section-three{
+       flex-direction: column;
+       padding: 1rem;
   }
   .text-content {
     width: 80%;
+  }
+  .section-three .second-col{
+    padding: 2rem;
+    width: 100%;
   }
 
 }
