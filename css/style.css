@@ -6,13 +6,13 @@
 }
 
 .header-section{
-  background-image: url(/images/bg-image.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
+     background-image: url(/images/bg-image.jpg);
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     height: 100vh;
+     display: flex;
+     flex-direction: column;
 }
 .menu-icon{
     width: 48px;
