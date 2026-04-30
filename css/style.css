@@ -6,7 +6,7 @@
 }
 
 .header-section{
-     background-image: url(/images/bg-image.jpg);
+     background-image: url(../images/bg-image.jpg);
      background-size: cover;
      background-position: center;
      background-repeat: no-repeat;
@@ -133,7 +133,7 @@ nav ul li a:hover {
   color: gray;
 }
 .section-two{
-  background-image: url(/images/home-image1.jpg);
+  background-image: url(../images/home-image1.jpg);
   height: 70vh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -161,7 +161,7 @@ nav ul li a:hover {
 
 .section-four {
   margin-top: 5rem;
-  background-image: url(/images/home-image2.jpg);
+  background-image: url(../images/home-image2.jpg);
   height: 90vh;
   background-position: center;
   background-size: cover;
@@ -194,7 +194,7 @@ nav ul li a:hover {
 }
 
 .image-section{
-  background-image: url(/images/about-image1.jpg);
+  background-image: url(../images/about-image1.jpg);
   height: 40vh;
 }
 
